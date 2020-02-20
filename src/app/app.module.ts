@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { MenuTopComponent } from './Components/Blocks/menu-top/menu-top.component';
 import { MenuMidComponent } from './Components/Blocks/menu-mid/menu-mid.component';
 import { MenuBotComponent } from './Components/Blocks/menu-bot/menu-bot.component';
+import { CarouselComponent } from './Components/Blocks/carousel/carousel.component';
+import { BodyLeftComponent } from './Components/Page/body-left/body-left.component';
+import { BodyRightComponent } from './Components/Page/body-right/body-right.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuTopComponent,
     MenuMidComponent,
-    MenuBotComponent
+    MenuBotComponent,
+    CarouselComponent,
+    BodyLeftComponent,
+    BodyRightComponent
   ],
   imports: [
     BrowserModule,
